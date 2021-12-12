@@ -1,0 +1,19 @@
+.nb-shuffle {
+  cursor: pointer;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nb-card {
+  margin: 1rem;
+}

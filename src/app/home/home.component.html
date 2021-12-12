@@ -1,0 +1,62 @@
+<div class="card-container">
+    <nb-card>
+        <nb-card-header>
+            Lorem ipsum dolor sit amet.
+        </nb-card-header>
+        <nb-card-body>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, temporibus? Eos dicta, est temporibus
+            ad,
+            unde ex cum excepturi eum, iure facere officia. Placeat ullam vel sint eum odio, aut soluta quibusdam
+            impedit
+            aliquid eaque quos quidem, laboriosam architecto commodi.
+        </nb-card-body>
+    </nb-card>
+
+    <nb-flip-card [showToggleButton]="false" [flipped]="flipped">
+        <nb-card-front>
+            <nb-card size="tiny">
+                <nb-card-header>
+                    Lorem ipsum dolor sit amet.
+
+                </nb-card-header>
+                <nb-card-body>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aperiam, ducimus ipsam voluptate
+                    fugit vitae eveniet rerum odio, debitis vel fugiat veniam incidunt obcaecati velit architecto
+                    sed id! Voluptates cupiditate error dolore dolor veniam nesciunt?
+                </nb-card-body>
+                <nb-card-footer>
+                    <div class="card-footer">
+                        <span>
+                            Lorem ipsum dolor sit amet?
+                        </span>
+                        <button nbButton shape="round" size="small" (click)="toggleFlip()">
+                            <nb-icon icon="chevron-right-outline" status="danger"></nb-icon>
+                        </button>
+                    </div>
+                </nb-card-footer>
+            </nb-card>
+        </nb-card-front>
+        <nb-card-back>
+            <nb-card>
+                <nb-card-header>
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </nb-card-header>
+                <nb-card-body>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, illo. Velit, optio, cumque
+                    consequatur vel assumenda cupiditate distinctio voluptatem laboriosam minus laborum repellat
+                    provident dolorem aliquid possimus, blanditiis tempora impedit.
+                </nb-card-body>
+                <nb-card-footer>
+                    <div class="card-footer">
+                        <span>
+                            Lorem ipsum dolor sit amet?
+                        </span>
+                        <button nbButton shape="round" size="small" (click)="toggleFlip()">
+                            <nb-icon icon="chevron-right-outline" status="danger"></nb-icon>
+                        </button>
+                    </div>
+                </nb-card-footer>
+            </nb-card>
+        </nb-card-back>
+    </nb-flip-card>
+</div>

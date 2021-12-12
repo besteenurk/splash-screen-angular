@@ -1,0 +1,84 @@
+.splash-screen {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    transition: left 0.8s;
+    opacity: 1;
+  }
+
+.app {
+    display: flex;
+    flex-direction: row;
+}
+.loader {
+  width: calc(2rem);
+  height: calc(2rem);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5D8AA6;
+  border-radius: 50%;
+  margin-left: 4px;
+
+  &:before,
+  &:after {
+    content: '';
+    width: calc(1rem);
+    height: calc(1rem);
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  &:before {
+    background-color: #BFCDD9;
+    animation: scale1 2400ms linear infinite;
+  }
+
+  &:after {
+    background-color: #5D8AA6;
+    animation: scale2 2400ms linear infinite;
+  }
+
+  &:nth-child(2):before,
+  &:nth-child(2):after {
+    animation-delay: 300ms;
+  }
+
+  &:nth-child(3):before,
+  &:nth-child(3):after {
+    animation-delay: 600ms;
+  }
+}
+
+@keyframes scale1 {
+  0% {
+    transform: scale(0);
+    z-index: 2
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scale2 {
+
+  0%,
+  50% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
