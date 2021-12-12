@@ -1,3 +1,6 @@
+$loading-background-color: #5D8AA6;
+$loading-second-color: #BFCDD9;
+
 .splash-screen {
     background: #fff;
     position: fixed;
@@ -26,7 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5D8AA6;
+  background-color: $loading-background-color;
   border-radius: 50%;
   margin-left: 4px;
 
@@ -40,12 +43,12 @@
   }
 
   &:before {
-    background-color: #BFCDD9;
+    background-color: $loading-second-color;
     animation: scale1 2400ms linear infinite;
   }
 
   &:after {
-    background-color: #5D8AA6;
+    background-color: $loading-background-color;
     animation: scale2 2400ms linear infinite;
   }
 
