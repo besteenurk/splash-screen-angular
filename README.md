@@ -1,9 +1,10 @@
 
 # Screen Recording
 
-<video width="420" height="240" controls>
-  <source src="src/assets/splash_screen.mov">
-</video>
+
+https://user-images.githubusercontent.com/14995838/145715359-6d12b7b7-4f76-4e10-be07-72e572c03dd1.mov
+
+
 
 # Splash Screen
 
