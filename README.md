@@ -1,3 +1,10 @@
+
+# Screen Recording
+
+<video controls>
+  <source src="src/assets/splash_screen.mov">
+</video>
+
 # Splash Screen
 
 ![Splah Screen](src/assets/splash-screen.png)
