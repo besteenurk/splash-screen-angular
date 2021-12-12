@@ -1,7 +1,7 @@
 
 # Screen Recording
 
-<video controls>
+<video width="420" height="240" controls>
   <source src="src/assets/splash_screen.mov">
 </video>
 
